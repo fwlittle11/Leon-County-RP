@@ -301,3 +301,102 @@ form button:hover {
 .submit-button:hover {
     background: #ddd;
 }
+/* BLACK + PURPLE THEME */
+
+body {
+    background: #050505;
+    color: white;
+}
+
+
+/* Navigation */
+.navbar {
+    background: #0a0a0a;
+    border-bottom: 2px solid #8a2be2;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    color: #b366ff;
+}
+
+
+/* Sections */
+section {
+    background: #050505;
+}
+
+
+/* Application Cards */
+.app-card {
+    background: #101010;
+    border: 2px solid #8a2be2;
+    box-shadow: 0 0 10px rgba(138, 43, 226, 0.3);
+}
+
+
+.app-card:hover {
+    border-color: #c77dff;
+    box-shadow: 0 0 20px rgba(199, 125, 255, 0.7);
+}
+
+
+/* Application Form */
+.application-form {
+    background: #101010;
+    border: 2px solid #8a2be2;
+    box-shadow: 0 0 15px rgba(138, 43, 226, 0.4);
+}
+
+
+/* Inputs */
+.form-group input,
+.form-group textarea,
+.form-group select {
+    background: #050505;
+    border: 1px solid #8a2be2;
+    color: white;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    border-color: #c77dff;
+    box-shadow: 0 0 10px #8a2be2;
+}
+
+
+/* Buttons */
+button,
+.app-card a,
+.submit-button {
+    background: #8a2be2;
+    color: white;
+    border: none;
+}
+
+
+button:hover,
+.app-card a:hover,
+.submit-button:hover {
+    background: #c77dff;
+    color: black;
+}
+
+
+/* Titles */
+h1,
+h2,
+h3 {
+    color: #c77dff;
+}
+
+
+/* Footer */
+footer {
+    background: #0a0a0a;
+    border-top: 2px solid #8a2be2;
+}
